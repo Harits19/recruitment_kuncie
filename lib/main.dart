@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:kuncie_mobile/base/constans.dart';
+import 'package:kuncie_mobile/ui/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const Scaffold(),
+      theme: ThemeData(
+        fontFamily: C.string.defaultFontFamily,
+      ),
+      home: const MainPage(),
     );
   }
 }
