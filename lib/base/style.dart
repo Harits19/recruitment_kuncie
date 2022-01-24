@@ -9,9 +9,10 @@ class S {
 class _Text {
   const _Text();
 
-  TextStyle get caption => GoogleFonts.robotoMono(
+  TextStyle get caption => TextStyle(
         color: Colors.white,
         fontSize: 14,
+        fontFamily: C.string.roboto,
       );
 
   TextStyle get heading1 => const TextStyle(
@@ -31,8 +32,8 @@ class _Text {
         fontSize: 14,
       );
 
-  TextStyle get body1 => const TextStyle(
-        fontFamily: "Roboto",
+  TextStyle get body1 => TextStyle(
+        fontFamily: C.string.roboto,
         fontWeight: FontWeight.w400,
         fontSize: 14,
       );

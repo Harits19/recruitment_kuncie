@@ -32,13 +32,7 @@ class _Num {
 
 class _String {
   const _String();
-  String get defaultFontFamily => "Poppins";
+  String get defaultFontFamily => poppins;
   String get roboto => "Roboto";
-}
-
-enum BottomMenu {
-  home,
-  user,
-  message,
-  history,
+  String get poppins => "Poppins";
 }
