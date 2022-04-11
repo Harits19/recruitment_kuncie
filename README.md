@@ -1,16 +1,11 @@
+# Kuncie
 
-# kuncie_mobile
+Ini adalah proyek untuk mengikuti proses rekrutmen untuk PT Kuncie Pintar Nusantara
 
-## Getting Started
+# Teknologi
 
-Sebelum menjalankan projek ini diperlukan instal Flutter SDK di komputer anda. Untuk link dokumentasi dapat dilihat dibawah ini:
+- [**pie_chart**](https://pub.dev/packages/pie_chart)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+# Demo
 
-Setelah menginstal Flutter SDK maka anda dapat menjalankan aplikasi menggunakan command `flutter run` atau bisa di build menggunakan command `flutter build apk`
-
-Untuk mereuse component dapat diletakkan pada ui/views
-
-Untuk mereuse style dapat diletakkan di base/style.dart
-
-Untuk mereuse constans dapat diletakkan di base/constans.dart
+![enter image description here](https://github.com/Harits19/recruitment_kuncie/blob/main/demo/demo.gif?raw=true)
